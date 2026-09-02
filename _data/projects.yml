@@ -1,0 +1,6 @@
+- title: "Personal Portfolio"
+  description: "Minimalist, fast portfolio site built with custom Jekyll and Figma design tokens."
+  image: "/assets/images/project2.png"
+  tags: ["Jekyll", "HTML/CSS", "Figma"]
+  github: "https://github.com/slygaleeb/slygaleeb.github.io"
+  demo: "https://slygaleeb.github.io"
