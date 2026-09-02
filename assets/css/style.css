@@ -234,3 +234,87 @@ body {
 .footer-links a:hover {
   color: var(--accent);
 }
+
+/* Hero Bio Additions */
+.hero-title .nickname {
+  font-weight: 600;
+  color: var(--accent);
+  font-size: 0.85em;
+}
+
+.hero-bio {
+  max-width: 680px;
+  margin-bottom: 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.hero-bio p {
+  color: var(--text-muted);
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.hero-bio strong {
+  color: var(--text-main);
+  font-weight: 600;
+}
+
+/* Standard Intro Text Styling */
+.hero-bio p {
+  font-size: 1.05rem;
+  color: var(--text-main);
+  line-height: 1.75;
+}
+
+.hero-bio strong {
+  font-weight: 600;
+  color: var(--accent);
+}
+
+/* Profiles & Social Links List */
+.social-links-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.social-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--text-main);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.05rem;
+  width: fit-content;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.social-item:hover {
+  color: var(--accent);
+  transform: translateX(4px);
+}
+
+.social-icon {
+  display: inline-block;
+  vertical-align: middle;
+  flex-shrink: 0;
+}
+
+/* Proper sizing for external CDN SVGs */
+.social-item img.social-icon {
+  width: 20px;
+  height: 20px;
+  display: block;
+  filter: grayscale(100%);
+  opacity: 0.75;
+  transition: filter 0.2s ease, opacity 0.2s ease;
+}
+
+.social-item:hover img.social-icon {
+  filter: grayscale(0%);
+  opacity: 1;
+}
