@@ -1,6 +1,8 @@
-- title: "Personal Portfolio"
-  description: "Minimalist, fast portfolio site built with custom Jekyll and Figma design tokens."
-  image: "/assets/images/project2.png"
-  tags: ["Jekyll", "HTML/CSS", "Figma"]
-  github: "https://github.com/slygaleeb/slygaleeb.github.io"
-  demo: "https://slygaleeb.github.io"
+- title: "Business Management System (Team OOPS)"
+  description: "A CLI-based Business Management System implemented in C++ for CSE 4301 (Object-Oriented Programming), featuring modular OOP design and efficient data handling."
+  tags:
+    - C++
+    - Object-Oriented Programming
+    - CLI
+  github: "https://github.com/amir-al-razin/team-oops"
+  demo: ""

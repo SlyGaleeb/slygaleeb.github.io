@@ -2,13 +2,63 @@
 layout: default
 ---
 
-{% include hero.html %}
+<div id="about">
+  {% include hero.html %}
+</div>
 
-<section class="section">
+<section class="section" id="profiles">
   <div class="container">
     <h2 class="section-title">Profiles & Socials</h2>
     {% include social_links.html %}
   </div>
 </section>
 
-{% include projects.html %}
+<div id="projects">
+  {% include projects.html %}
+</div>
+
+<section class="section" id="education">
+  <div class="container">
+    <h2 class="section-title">Education</h2>
+    <div class="education-grid">
+
+      <div class="info-card education-card">
+        <div class="card-header-row">
+          <h3>Agricultural University College</h3>
+          <span class="badge-timeline">2022 &ndash; 2023</span>
+        </div>
+        <p class="card-degree">Higher Secondary Certificate (HSC) &bull; Science</p>
+        <p class="card-meta">Mymensingh, Bangladesh</p>
+        <p class="card-result">GPA: <strong>5.00 / 5.00</strong></p>
+      </div>
+
+      <div class="info-card education-card">
+        <div class="card-header-row">
+          <h3>Agriculture University High School</h3>
+          <span class="badge-timeline">2021</span>
+        </div>
+        <p class="card-degree">Secondary School Certificate (SSC) &bull; Science</p>
+        <p class="card-meta">Mymensingh, Bangladesh</p>
+        <p class="card-result">GPA: <strong>5.00 / 5.00</strong></p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="section" id="achievements">
+  <div class="container">
+    <h2 class="section-title">Achievements</h2>
+    <div class="info-card">
+      <ul class="simple-achievements-list">
+        <li><span>CUET IUPC 2025</span> &mdash; 14th</li>
+        <li><span>IUT IUPC 2026</span> &mdash; 16th</li>
+        <li><span>DUET IUPC 2026</span> &mdash; 19th</li>
+        <li><span>ICPC Asia Dhaka Regional 2025</span> &mdash; 93rd</li>
+        <li><span>Intra IUT Junior Programming Contest 2025</span> &mdash; Champion (1st)</li>
+        <li><span>BdMO Regional Champion (Junior, Mymensingh)</span> &mdash; 2019</li>
+        <li><span>BdMO Regional Winner (Secondary, Mymensingh)</span> &mdash; 2021</li>
+      </ul>
+    </div>
+  </div>
+</section>
