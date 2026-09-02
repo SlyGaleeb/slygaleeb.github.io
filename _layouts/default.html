@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title | default: site.title | default: "Mostafa Mubashir Hossain | Portfolio" }}</title>
+  <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title | default: "Mostafa Mubashir Hossain" }}</title>
+  <link rel="icon" type="image/png" href="{{ '/assets/images/dp.png' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
