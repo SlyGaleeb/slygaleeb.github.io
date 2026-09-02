@@ -1,5 +1,70 @@
 <section class="hero-section">
-  <div class="container hero-container">
+  <div class="container hero-layout">
+    
+    <aside class="profile-card">
+      <img src="{{ '/assets/images/dp.png' | relative_url }}" alt="Mostafa Mubashir Hossain" class="profile-avatar">
+      <h2 class="profile-name">Mostafa Mubashir Hossain</h2>
+
+      <div class="profile-meta-list">
+        <!-- 1. Location -->
+        <div class="meta-item">
+          <svg class="meta-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
+            <circle cx="12" cy="10" r="3"/>
+          </svg>
+          <span>Dhaka, Bangladesh</span>
+        </div>
+
+        <!-- 2. University -->
+        <div class="meta-item">
+          <svg class="meta-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 21h18M3 10h18M5 10v11M19 10v11M9 10v11M15 10v11M12 2l10 5H2l10-5z"/>
+          </svg>
+          <span>Islamic University of Technology</span>
+        </div>
+
+        <hr class="meta-divider">
+
+        <!-- 3. Profiles & Social Links -->
+        <a href="mailto:galeeb8917@gmail.com" class="meta-item meta-link">
+          <svg class="meta-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+          </svg>
+          <span>Email</span>
+        </a>
+
+        <a href="https://github.com/SlyGaleeb" target="_blank" rel="noopener" class="meta-item meta-link">
+          <img class="meta-icon" src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/github.svg" width="18" height="18" alt="GitHub">
+          <span>GitHub</span>
+        </a>
+
+        <a href="https://www.linkedin.com/in/mostafa-mubashir-hossain-384451232/" target="_blank" rel="noopener" class="meta-item meta-link">
+          <img class="meta-icon" src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/linkedin.svg" width="18" height="18" alt="LinkedIn">
+          <span>LinkedIn</span>
+        </a>
+
+        <a href="https://codeforces.com/profile/SlyGaleeb" target="_blank" rel="noopener" class="meta-item meta-link">
+          <img class="meta-icon" src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/codeforces.svg" width="18" height="18" alt="Codeforces">
+          <span>Codeforces</span>
+        </a>
+
+        <a href="https://atcoder.jp/users/SlyGaleeb" target="_blank" rel="noopener" class="meta-item meta-link">
+          <img class="meta-icon" src="https://img.atcoder.jp/assets/logo.png" width="18" height="18" alt="AtCoder" style="object-fit: contain;">
+          <span>AtCoder</span>
+        </a>
+
+        <a href="https://www.codechef.com/users/galeeb_1" target="_blank" rel="noopener" class="meta-item meta-link">
+          <img class="meta-icon" src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/codechef.svg" width="18" height="18" alt="CodeChef">
+          <span>CodeChef</span>
+        </a>
+
+        <a href="https://steamcommunity.com/profiles/76561198799900933/" target="_blank" rel="noopener" class="meta-item meta-link">
+          <img class="meta-icon" src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/steam.svg" width="18" height="18" alt="Steam">
+          <span>Steam</span>
+        </a>
+      </div>
+    </aside>
+
     <div class="hero-bio">
       <p>Hi!</p>
       <p>
@@ -14,11 +79,12 @@
       <p>
         Outside of this, my hobbies include playing video games, watching anime, and listening to music.
       </p>
+
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">Explore Projects</a>
+        <a href="mailto:galeeb8917@gmail.com" class="btn btn-secondary">Get In Touch</a>
+      </div>
     </div>
 
-    <div class="hero-actions">
-      <a href="#projects" class="btn btn-primary">Explore Projects</a>
-      <a href="mailto:galeeb8917@gmail.com" class="btn btn-secondary">Get In Touch</a>
-    </div>
   </div>
 </section>
