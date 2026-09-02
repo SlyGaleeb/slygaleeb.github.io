@@ -16,6 +16,7 @@
       <nav class="nav-links">
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
+        <a href="#publications">Publications</a>
         <a href="#education">Education</a>
         <a href="#achievements">Achievements</a>
       </nav>
@@ -41,11 +42,12 @@
       const sectionTitles = {
         'about': 'About',
         'projects': 'Projects',
+        'publications': 'Publications',
         'education': 'Education',
         'achievements': 'Achievements'
       };
 
-      const sections = document.querySelectorAll('#about, #projects, #education, #achievements');
+      const sections = document.querySelectorAll('#about, #projects, #publications, #education, #achievements');
 
       const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
@@ -57,12 +59,11 @@
           }
         });
       }, {
-        rootMargin: '-30% 0px -60% 0px' // Triggers cleanly when the section enters central viewport
+        rootMargin: '-30% 0px -60% 0px'
       });
 
       sections.forEach(section => observer.observe(section));
 
-      // Reset to Home when scrolled to the top
       window.addEventListener('scroll', () => {
         if (window.scrollY < 120) {
           document.title = `Home - ${siteName}`;
